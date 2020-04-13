@@ -26,7 +26,7 @@ class Asset
         return self::$entrypoints;
     }
 
-    public static function file(string $file)
+    public static function file($file)
     {
         $manifest = self::getManifest();
 
@@ -37,7 +37,7 @@ class Asset
         return null;
     }
 
-    public static function entrypoint(string $name)
+    public static function entrypoint($name)
     {
         $entrypoints = self::getEntrypoints();
 
