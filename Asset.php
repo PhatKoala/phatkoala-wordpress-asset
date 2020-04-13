@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace PhatKoala;
 
 class Asset
@@ -10,7 +8,7 @@ class Asset
 
     private static $entrypoints;
 
-    public static function getManifest(): array
+    public static function getManifest()
     {
         if (is_null(self::$manifest)) {
             self::$manifest = json_decode(file_get_contents(sprintf('%s/build/manifest.json', getcwd())), true);;
@@ -19,7 +17,7 @@ class Asset
         return self::$manifest;
     }
 
-    public static function getEntrypoints(): array
+    public static function getEntrypoints()
     {
         if (is_null(self::$entrypoints)) {
             self::$entrypoints = json_decode(file_get_contents(sprintf('%s/build/entrypoints.json', getcwd())), true);;
@@ -28,7 +26,7 @@ class Asset
         return self::$entrypoints;
     }
 
-    public static function file(string $file): ?string
+    public static function file(string $file)
     {
         $manifest = self::getManifest();
 
@@ -39,7 +37,7 @@ class Asset
         return null;
     }
 
-    public static function entrypoint(string $name): ?array
+    public static function entrypoint(string $name)
     {
         $entrypoints = self::getEntrypoints();
 
