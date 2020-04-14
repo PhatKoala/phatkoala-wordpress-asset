@@ -2,7 +2,7 @@
 /**
  * Plugin Name: PhatKoala Asset
  * Plugin URI: https://www.phatkoala.uk/
- * Description: WordPress integration with Webpack Encore - compile, optimise and version your assets.
+ * Description: WordPress integration for Webpack Encore - compile, optimise and version your assets.
  * Version: 1.0
  * Author: Stewart Walter
  * Author URI: https://www.phatkoala.uk/

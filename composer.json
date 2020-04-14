@@ -1,0 +1,12 @@
+{
+  "name": "phatkoala/wordpress-asset",
+  "description": "WordPress integration for Webpack Encore - compile, optimise and version your assets.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "keywords": [ ],
+  "homepage": "https://www.phatkoala.uk/",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.2"
+  }
+}
