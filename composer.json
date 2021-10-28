@@ -11,6 +11,6 @@
   },
   "autoload": {
     "files": [ "bootstrap.php" ],
-    "psr-4": { "PhatKoala\\Asset": "" }
+    "psr-4": { "PhatKoala\\Asset\\": "" }
   }
 }
