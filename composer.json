@@ -8,5 +8,9 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.2"
+  },
+  "autoload": {
+    "files": [ "bootstrap.php" ],
+    "psr-4": { "PhatKoala\\Asset": "" }
   }
 }
